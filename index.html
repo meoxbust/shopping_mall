@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping Mall</title>
+    <link rel="icon" type="image/web" sizes="jpg" href="./assets/css/img/blackcat.webp"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="grid wide">
+                <nav class="header__navbar hide-mobile-tablet">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-has-qr header__navbar-item--separate">
+                            Access to our website on Wibu app
+                            <!--Header QR code-->
+                            <div class="header__qr">
+                                <img src="./assets/css/img/qr-code.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/css/img/google-play.png" alt="" class="header__qr-download">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/css/img/app-store.png" alt="" class="header__qr-download">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/css/img/app-gallery.png" alt="" class="header__qr-download">
+                                    </a>
+                                   
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-item--disabled">Connect</span>
+                            <a href="" class="header__navbar-item-icon">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-item-icon">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--flag">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-bell"></i>
+                                Notifications
+                            </a>
+                            <!--Header__notify-->
+                            <div class="header__notify">
+                                    <div class="header__notify-header">
+                                        <h3>Lastest Notifications</h3>
+                                    </div>
+                                    <ul class="header__notify-list">
+                                        <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./assets/css/img/Noti1_.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Greenlights</span>
+                                                    <span class="header__notify-desc">$0.00 Free with Audible trial</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./assets/css/img/Noti2.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Project Hail Mary</span>
+                                                    <span class="header__notify-desc">$0.00 Free with Audible trial</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./assets/css/img/Noti3.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">The Judge's List: A Novel</span>
+                                                    <span class="header__notify-desc">$0.00 Free with Audible trial</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./assets/css/img/Noti4.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">The Last Thing He Told Me: A Novel</span>
+                                                    <span class="header__notify-desc">$0.00 Free with Audible trial</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <footer class="header__notify-footer">
+                                        <a href="" class="header__notify-footer-btn">See All</a>
+                                    </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-question-circle"></i>  
+                                Help
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Sign up</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Sign in</li> -->
+                        <li class="header__navbar-item header__navbar-item-user">
+                            <img class="header__navbar-user-img" src="https://cf.shopee.vn/file/1af773aa014e0d48fdfff8a868a2bcc7_tn" alt="Manh Tuong">
+                            <span class="header__navbar-user-name">Manh Tuong</span>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">My account</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">My receipt</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">My address</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="">Log out</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+
+                    <div class="header__logo hide-on-tablet">
+                        <a href="/" class="header__logo-link">
+                            <img src="./assets/css/img/1564282856-carbon.png" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+
+                    <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Search">
+
+                            <!-- Search History -->
+                            <div class="header__search-hitory">
+                                <h3 class="header__search-hitory-heading">History</h3>
+                                <ul class="header__search-hitory-list">
+                                    <li class="header__search-hitory-item">
+                                        <a href="">Jujutsu Kaisen vol 0</a>
+                                    </li>
+
+                                    <li class="header__search-hitory-item">
+                                        <a href="">Condom</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-selection">
+                            <span class="header__search-label">Catogories</span>
+                            <i class="header__search-icon fas fa-angle-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item">
+                                    <span>Clothes</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+
+                                <li class="header__search-option-item">
+                                    <span>Books</span>
+                                    <i class="fas fa-check"></i>
+                                </li> 
+
+                                <li class="header__search-option-item">
+                                    <span>Computers</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!-- Cart Layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">3</span>
+                            <!-- No Cart: header__cart-list--no-cart -->
+                            <div class="header__cart-list">
+                                <img src="./assets/css/img/no-cart-yellow.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">Empty Cart</span>
+
+                                <h4 class="header__cart-heading">Products have been added</h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- Cart Items -->
+                                    <li class="header__cart-item">
+                                        <img src="https://images-na.ssl-images-amazon.com/images/I/51P+t1IHQBS._SX331_BO1,204,203,200_.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Kaiju No. 8, Vol. 1</h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">9.99$</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Paperback - December 7, 2021</span>
+                                                <span class="header__cart-item-remove">Remove</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://images-na.ssl-images-amazon.com/images/I/41FE6cItm3L._SX331_BO1,204,203,200_.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Spy x Family, Vol. 1</h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">9.99$</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Paperback – June 2, 2020</span>
+                                                <span class="header__cart-item-remove">Remove</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://images-na.ssl-images-amazon.com/images/I/51EUA4ZXWsL._SX347_BO1,204,203,200_.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Solo Leveling, Vol. 1</h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">16.01$</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Paperback – March 2, 2021</span>
+                                                <span class="header__cart-item-remove">Remove</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://m.media-amazon.com/images/I/51xtSVYRWyL._SY346_.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Domestic Girlfriend Vol. 2</h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">5.99$</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Format: Kindle Edition</span>
+                                                <span class="header__cart-item-remove">Remove</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://images-na.ssl-images-amazon.com/images/I/512QRxWJp-L._SX331_BO1,204,203,200_.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Demon Slayer: Kimetsu no Yaiba--Stories of Water and Flame</h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">7.49$</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Paperback – January 4, 2022</span>
+                                                <span class="header__cart-item-remove">Remove</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://m.media-amazon.com/images/I/51BVhD3f0qL.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability Vol. 4</h5>
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">8.99$</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Format: Kindle Edition</span>
+                                                <span class="header__cart-item-remove">Remove</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                
+
+                                <a href="" class="header__cart-view-cart btn btn--primary">See Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Related</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Popular</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link header__sort-link--active">Lastest</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Best Seller</a>
+                </li>
+            </ul>
+        </div>
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fas fa-list"></i>
+                                Category
+                            </h3>
+            
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="" class="category-item-link">Books</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item-link">Clothes</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item-link">Computers</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-mobile-tablet">
+                            <span class="home-filter__label">Sort by</span>
+                            <button class="home-filter__btn btn">Popular</button>
+                            <button class="home-filter__btn btn btn--primary">Lastest</button>
+                            <button class="home-filter__btn btn">Best Seller</button>
+                            
+                            <div class="select-input">
+                                <span class="select-input-label">Price</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Largest to Smallest</a>
+                                    </li> 
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Smallest to Largest</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/3
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn--disabled home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Books</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Clothes</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Laptops</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Keyboards</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Pets</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Waifus</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Toys</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Codoms</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Mangas</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Anime CDs</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Smart Phone</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Tent</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="home-product item-wrapper">
+                            <div class="row sm-gutter">
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="/">
+                                        <div class="home-product-item__img" style="background-image: url(https://m.media-amazon.com/images/I/81EFJlUUAuL._AC_UY327_FMwebp_QL65_.jpg);"></div>
+                                        <h4 class="home-product-item__name">Jujutsu Kaisen, Vol. 0</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">$9.99</span>
+                                            <span class="home-product-item__price-current">$8.99</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__non-like-icon far fa-heart"></i>
+                                                <i class="home-product-item__fill-like-icon fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">100k sold out</output></span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Gege Akutami</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Favourite</span> 
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">SALE</span>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="/">
+                                        <div class="home-product-item__img" style="background-image: url(https://images-na.ssl-images-amazon.com/images/I/51zXJBloNpL._SX331_BO1,204,203,200_.jpg);"></div>
+                                        <h4 class="home-product-item__name">Jujutsu Kaisen, Vol. 1</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">$12.3</span>
+                                            <span class="home-product-item__price-current">$9.76</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__non-like-icon far fa-heart"></i>
+                                                <i class="home-product-item__fill-like-icon fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">300k sold out</output></span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Gege Akutami</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Favourite</span> 
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">19%</span>
+                                            <span class="home-product-item__sale-off-label">SALE</span>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="/">
+                                        <div class="home-product-item__img" style="background-image: url(https://images-na.ssl-images-amazon.com/images/I/51r-jJptMFL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg);"></div>
+                                        <h4 class="home-product-item__name">Tokyo Ghoul, Vol. 1</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">$7.99</span>
+                                            <span class="home-product-item__price-current">$6.49</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__non-like-icon far fa-heart"></i>
+                                                <i class="home-product-item__fill-like-icon fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">50k sold out</output></span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Sui Ishida</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Favourite</span> 
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">SALE</span>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="/">
+                                        <div class="home-product-item__img" style="background-image: url(https://images-na.ssl-images-amazon.com/images/I/51uwH6XRhpL._SX343_BO1,204,203,200_.jpg);"></div>
+                                        <h4 class="home-product-item__name">Tokyo Ghoul, Vol. 2</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">$18.88</span>
+                                            <span class="home-product-item__price-current">$7.99</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__non-like-icon far fa-heart"></i>
+                                                <i class="home-product-item__fill-like-icon fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">69k sold out</output></span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Sui Ishida</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Favourite</span> 
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">52%</span>
+                                            <span class="home-product-item__sale-off-label">SALE</span>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="/">
+                                        <div class="home-product-item__img" style="background-image: url(https://images-na.ssl-images-amazon.com/images/I/51FQDbi6dXS._SX349_BO1,204,203,200_.jpg);"></div>
+                                        <h4 class="home-product-item__name">I Want to Eat Your Pancreas</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">$12.3</span>
+                                            <span class="home-product-item__price-current">$9.99</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__non-like-icon far fa-heart"></i>
+                                                <i class="home-product-item__fill-like-icon fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">500k sold out</output></span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Yoru Sumino</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Favourite</span> 
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">10%</span>
+                                            <span class="home-product-item__sale-off-label">SALE</span>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="/">
+                                        <div class="home-product-item__img" style="background-image: url(https://images-na.ssl-images-amazon.com/images/I/61gJ4CMCtuL._SX331_BO1,204,203,200_.jpg);"></div>
+                                        <h4 class="home-product-item__name">The Promised Neverland</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">$9.99</span>
+                                            <span class="home-product-item__price-current">$6.99</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__non-like-icon far fa-heart"></i>
+                                                <i class="home-product-item__fill-like-icon fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">300k sold out</output></span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Kaiu Shirai</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Favourite</span> 
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">30%</span>
+                                            <span class="home-product-item__sale-off-label">SALE</span>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="/">
+                                        <div class="home-product-item__img" style="background-image: url(https://images-na.ssl-images-amazon.com/images/I/51m9ctmcRnL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg);"></div>
+                                        <h4 class="home-product-item__name">Chainsaw Man, Vol. 1</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">$9.99</span>
+                                            <span class="home-product-item__price-current">$6.99</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__non-like-icon far fa-heart"></i>
+                                                <i class="home-product-item__fill-like-icon fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">50k sold out</output></span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Tatsuki Fujimoto</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Favourite</span> 
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">30%</span>
+                                            <span class="home-product-item__sale-off-label">SALE</span>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="/">
+                                        <div class="home-product-item__img" style="background-image: url(https://images-na.ssl-images-amazon.com/images/I/51PekA4q1zL._SX331_BO1,204,203,200_.jpg);"></div>
+                                        <h4 class="home-product-item__name">Chainsaw Man, Vol. 2</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">$9.58</span>
+                                            <span class="home-product-item__price-current">$6.29</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__non-like-icon far fa-heart"></i>
+                                                <i class="home-product-item__fill-like-icon fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">50k sold out</output></span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Tatsuki Fujimoto</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Favourite</span> 
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">30%</span>
+                                            <span class="home-product-item__sale-off-label">SALE</span>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="/">
+                                        <div class="home-product-item__img" style="background-image: url(https://m.media-amazon.com/images/I/510rudO2SxL.jpg);"></div>
+                                        <h4 class="home-product-item__name">Domestic Girlfriend Vol. 1</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">$20.00</span>
+                                            <span class="home-product-item__price-current">$12.3$</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__non-like-icon far fa-heart"></i>
+                                                <i class="home-product-item__fill-like-icon fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">450k sold out</output></span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Kei Sasuga</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Favourite</span> 
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">SALE</span>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a class="home-product-item" href="/">
+                                        <div class="home-product-item__img" style="background-image: url(https://m.media-amazon.com/images/I/51uwMtmKTkL.jpg);"></div>
+                                        <h4 class="home-product-item__name">Domestic Girlfriend Vol. 28</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">$9.99</span>
+                                            <span class="home-product-item__price-current">$7.99</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__non-like-icon far fa-heart"></i>
+                                                <i class="home-product-item__fill-like-icon fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">350k sold out</output></span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Kei Sasuga</span>
+                                            <span class="home-product-item__origin-name">Japan</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Favourite</span> 
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">33%</span>
+                                            <span class="home-product-item__sale-off-label">SALE</span>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+
+                            <li class="pagination-item pagination-item--disabled">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+
+                            <li class="pagination-item pagination-item--disabled">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+
+                            <li class="pagination-item pagination-item--disabled">
+                                <a href="" class="pagination-item__link">12</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+           <div class="grid wide">
+               <div class="row sm-gutter">
+                   <div class="col l-2-4 col l-2-4--modifier m-4 c-6">
+                    <h3 class="footer__heading">Get to Know Us</h3> 
+                    <ul class="footer__list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Careers</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Blog</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Investor Relations</a>
+                        </li>
+                    </ul>
+                   </div>
+                   <div class="col l-2-4 col l-2-4--modifier m-4 c-6">
+                    <h3 class="footer__heading">Make Money with Us</h3>    
+                    <ul class="footer__list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Become an Affiliate</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Advertise Your Products</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Self-Publish with Us</a>
+                        </li>
+                    </ul>
+                   </div>
+                   <div class="col l-2-4 col l-2-4--modifier m-4 c-6">
+                       <div class="footer__logo-img">
+                           <img src="https://cdn140.picsart.com/334733793098211.png?to=crop&type=webp&r=-1x-1&q=95&width=1920" class="footer__logo" alt="logo">
+                       </div>
+                    </div>
+                   <div class="col l-2-4 col l-2-4--modifier m-4 c-6">
+                    <h3 class="footer__heading">Follow us on</h3> 
+                    <ul class="footer__list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-facebook-square"></i>
+                                Facebook
+                            </a>
+                        </li>    
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-instagram"></i>
+                                Instagram
+                            </a>
+                        </li>    
+                        <li class="footer-item">    
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-linkedin-in"></i>
+                                Linkedin
+                            </a>
+                        </li>
+                    </ul>
+                   </div>
+                   <div class="col l-2-4 col l-2-4--modifier m-4 c-6">
+                    <h3 class="footer__heading">Download App</h3>
+                    <div class="footer__download">
+                        <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/d91264e165ed6facc6178994d5afae79.png" alt="" class="footer__download-qr">
+                        <div class="footer__download-apps">
+                            <a href="" class="footer__download-apps-link">
+                                <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/39f189e19764dab688d3850742f13718.png" alt="" class="footer__download-apps-img">
+                            </a>
+                            <a href="" class="footer__download-apps-link">
+                                <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/f4f5426ce757aea491dce94201560583.png" alt="" class="footer__download-apps-img">
+                            </a>
+                            <a href="" class="footer__download-apps-link">
+                                <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/1ae215920a31f2fc75b00d4ee9ae8551.png" alt="" class="footer__download-apps-img">
+                            </a>
+                        </div>
+                    </div> 
+                   </div>
+               </div>
+            </div> 
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__text">© 2022 - Bản quyền thuộc về Công ty TNHH WibuWideWorld</p>
+                </div>
+           </div>
+        </div>
+    </div>
+    <!--Modal-->
+    <!-- <div class="modal">
+        <div class="modal__overlay">
+
+        </div>
+        <div class="modal__body"> -->
+                <!--Register Form-->
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form-header">
+                            <h3 class="auth-form-heading">Register</h3>
+                            <span class="auth-form__switch-btn">Sign In</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Password">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Confirm Password">
+                            </div>
+                        </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Register, you agree with us about
+                            <a href="" class="auth-form__policy-link">Service control policy</a> &
+                            <a href="" class="auth-form__policy-link">Information privacy</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn btn-hover-normal">BACK</button>
+                        <button class="btn btn--primary mt-left-16">REGISTER</button>
+                    </div>
+                </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials-facebook btn btn--width-icon btn--size-s">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                            <span class="auth-form__socials-title mt-left-16">
+                                Facebook
+                            </span> 
+                        </a>
+                        <a href="" class="auth-form__socials-google btn btn--width-icon btn--size-s">
+                            <i class="auth-form__socials-icon fab fa-google"></i>                           
+                            <span class="auth-form__socials-title mt-left-16">
+                                Google
+                            </span> 
+                        </a>
+                    </div>
+                </div> -->
+                <!-- Log In -->
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form-header">
+                            <h3 class="auth-form-heading">Log In</h3>
+                            <span class="auth-form__switch-btn">Sign Up</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Password">
+                            </div>
+                        </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-link-forget">Forget Password?</a>
+                            <span class="auth-form__help__separate"></span>
+                            <a href="" class="auth-form__help-link mt-left-16">Need Help?</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn btn-hover-normal">BACK</button>
+                        <button class="btn btn--primary mt-left-16">LOG IN</button>
+                    </div>
+                </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials-facebook btn btn--width-icon btn--size-s">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                            <span class="auth-form__socials-title mt-left-16">
+                                Facebook
+                            </span> 
+                        </a>
+                        <a href="" class="auth-form__socials-google btn btn--width-icon btn--size-s">
+                            <i class="auth-form__socials-icon fab fa-google"></i>                           
+                            <span class="auth-form__socials-title mt-left-16">
+                                Google
+                            </span> 
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div> -->
+</body>
+</html>
